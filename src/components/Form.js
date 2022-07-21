@@ -12,7 +12,7 @@ function Form(props) {
     function handleLastNameChange(event) {
         setLastName(event.target.value);
     }
-
+    function handleSubmit(event) {
     return ( <
         form >
         <
