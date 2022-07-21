@@ -14,6 +14,7 @@ function Form(props) {
     }
     function handleSubmit(event) {
       event.preventDefault();
+      const formData = { firstName: firstName, lastName: lastName };
     return ( <
         form >
         <
