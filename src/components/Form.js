@@ -16,6 +16,7 @@ function Form(props) {
       event.preventDefault();
       const formData = { firstName: firstName, lastName: lastName };
       const dataArray = [...submittedData, formData];
+      setSubmittedData(dataArray);
     return ( <
         form >
         <
