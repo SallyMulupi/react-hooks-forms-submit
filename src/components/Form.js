@@ -13,6 +13,7 @@ function Form(props) {
         setLastName(event.target.value);
     }
     function handleSubmit(event) {
+      event.preventDefault();
     return ( <
         form >
         <
