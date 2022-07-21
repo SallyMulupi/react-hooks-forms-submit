@@ -17,6 +17,7 @@ function Form(props) {
       const formData = { firstName: firstName, lastName: lastName };
       const dataArray = [...submittedData, formData];
       setSubmittedData(dataArray);
+      setFirstName("");
     return ( <
         form >
         <
