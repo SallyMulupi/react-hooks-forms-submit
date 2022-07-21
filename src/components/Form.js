@@ -21,6 +21,8 @@ function Form(props) {
       setLastName("");
     }
     const listOfSubmissions = submittedData.map((data, index) => {
+      return (
+        <div key={index}>
     return ( <
         form >
         <
