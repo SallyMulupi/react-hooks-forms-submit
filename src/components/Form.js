@@ -23,6 +23,10 @@ function Form(props) {
     const listOfSubmissions = submittedData.map((data, index) => {
       return (
         <div key={index}>
+           {data.firstName} {data.lastName}
+      </div>
+    );
+  });
     return ( <
         form >
         <
