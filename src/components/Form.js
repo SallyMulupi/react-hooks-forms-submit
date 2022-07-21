@@ -18,6 +18,8 @@ function Form(props) {
       const dataArray = [...submittedData, formData];
       setSubmittedData(dataArray);
       setFirstName("");
+      setLastName("");
+    }
     return ( <
         form >
         <
