@@ -20,6 +20,7 @@ function Form(props) {
       setFirstName("");
       setLastName("");
     }
+    const listOfSubmissions = submittedData.map((data, index) => {
     return ( <
         form >
         <
